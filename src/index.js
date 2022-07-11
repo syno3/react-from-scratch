@@ -1,13 +1,8 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
+import React from "react";
+import ReactDOM from "react-dom";
 
-export default function App(){
-    return(
-        <h2>React from scratch working</h2>
-    )
+export default function App() {
+  return <h2>React from scratch working</h2>;
 }
 
-ReactDOM.render(
-    <App/>,
-    document.getElementById('root')
-)
+ReactDOM.render(<App />, document.getElementById("root"));
